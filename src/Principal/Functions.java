@@ -1,6 +1,6 @@
 package Principal;
 
-public class Funcions {
+public class Functions {
 	public static String formatarCpf(String x) {
 		String pt1 = x.substring(0,3);
 		String pt2 = x.substring(3,6);
