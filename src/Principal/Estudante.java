@@ -15,7 +15,7 @@ public class Estudante {
 	}
 	public void exibirCadastro() {
 		System.out.println("Nome aluno : "+this.nome);
-		System.out.println("CPF : "+Funcions.formatarCpf(this.cpf));
+		System.out.println("CPF : "+Functions.formatarCpf(this.cpf));
 		System.out.println("Curso : "+this.curso);
 		System.out.println("Idade aluno : "+this.idade);
 	}
